@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Models\Ivr\Legacy;
+
+use Illuminate\Database\Eloquent\Model;
+
+class DtmfToneAnalyzer185 extends Model
+{
+    protected $table = 'legacy_ivr_dtmf_tone_analyzer185';
+    protected $guarded = [];
+    public $timestamps = true;
+}
