@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/)",
+      "Bash(php artisan *)",
+      "Bash(curl -s http://127.0.0.1:8000/)",
+      "Bash(grep -ioE \"\\(exception|error\\)[^<]{0,120}\")",
+      "Bash(cd /home/shweta.shende/Shweta/Code-1/IVR-Application; rm -rf app; echo \"=== bootstrap/app.php ===\"; cat bootstrap/app.php; echo \"=== artisan ===\"; cat artisan; echo \"=== config/view.php paths ===\"; grep -n \"paths\\\\|resource_path\\\\|frontend\" config/view.php)",
+      "Bash(php -r 'require \"vendor/autoload.php\"; var_dump\\(class_exists\\(\"App\\\\\\\\Providers\\\\\\\\AppServiceProvider\"\\)\\); $r=new ReflectionClass\\(\"App\\\\\\\\Providers\\\\\\\\AppServiceProvider\"\\); echo $r->getFileName\\(\\),\"\\\\n\";')",
+      "Bash(composer dump-autoload *)",
+      "Bash(php -r 'require \"vendor/autoload.php\"; var_dump\\(class_exists\\(\"App\\\\\\\\Providers\\\\\\\\AppServiceProvider\"\\)\\);')",
+      "Bash(pkill -f \"concurrently\")",
+      "Bash(pkill -f \"vite\")",
+      "Bash(pkill -f \"artisan serve\")",
+      "Bash(nohup npm run dev)",
+      "Bash(echo \"started dev server \\(pid $!\\)\")",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8000/)",
+      "Bash(echo \"HTTP: $\\(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8000/\\)\")",
+      "Bash(curl -s -o /dev/null -w \"frontend/js/app.tsx -> %{http_code}\\\\n\" http://127.0.0.1:5174/frontend/js/app.tsx)"
+    ],
+    "additionalDirectories": [
+      "/home/shweta.shende/Shweta/Code-1/IVR-Application/app"
+    ]
+  }
+}

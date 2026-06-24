@@ -3,7 +3,7 @@
         'name' => 'ferjal0/react-inertia-laravel-starter',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '47581096b4f79001e69b750d77cc03f96ff2831f',
+        'reference' => 'a20e860be73ae75c0be28f19fd5c2585a26ae2f2',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -142,7 +142,7 @@
         'ferjal0/react-inertia-laravel-starter' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '47581096b4f79001e69b750d77cc03f96ff2831f',
+            'reference' => 'a20e860be73ae75c0be28f19fd5c2585a26ae2f2',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

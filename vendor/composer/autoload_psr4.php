@@ -133,5 +133,5 @@ return array(
     'CBOR\\' => array($vendorDir . '/spomky-labs/cbor-php/src'),
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
     'BaconQrCode\\' => array($vendorDir . '/bacon/bacon-qr-code/src'),
-    'App\\' => array($baseDir . '/app', $vendorDir . '/laravel/pint/app'),
+    'App\\' => array($baseDir . '/backend', $vendorDir . '/laravel/pint/app'),
 );

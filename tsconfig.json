@@ -13,13 +13,13 @@
         "noEmit": true,
         "baseUrl": ".",
         "paths": {
-            "@/*": ["./resources/js/*"],
+            "@/*": ["./frontend/js/*"],
             "ziggy-js": ["./vendor/tightenco/ziggy"]
         }
     },
     "include": [
-        "resources/js/**/*.ts",
-        "resources/js/**/*.tsx",
-        "resources/js/**/*.d.ts"
+        "frontend/js/**/*.ts",
+        "frontend/js/**/*.tsx",
+        "frontend/js/**/*.d.ts"
     ]
 }
