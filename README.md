@@ -1,4 +1,4 @@
-# IVR Monolithic App
+# IVR App
 
 A monolithic IVR testing platform built with Laravel 12.x, Inertia.js v2, React 19, TypeScript 5.8.2, Tailwind CSS 4, and Shadcn UI components.
 
@@ -59,8 +59,8 @@ This project implements a modern monolithic architecture using Laravel as the ba
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/shende-shweta/IVR-Monolithic-App.git
-cd IVR-Monolithic-App
+git clone https://github.com/shende-shweta/IVR-Application.git
+cd IVR-Application
 ```
 
 2. Install PHP dependencies:
@@ -131,11 +131,11 @@ The documentation is split into the following sections:
 ./vendor/bin/pint
 
 # TypeScript/React
-pnpm run lint
+npm run lint
 ```
 
 ## Building for Production
 
 ```bash
-pnpm run build
+npm run build
 ```
